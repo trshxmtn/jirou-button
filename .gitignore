@@ -35,5 +35,6 @@ yarn-debug.log*
 .yarn-integrity
 
 .DS_Store
-.idea
+.idea/jirou-button/workspace.xml
+.idea/jirou-button/tasks.xml
 .env
