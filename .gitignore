@@ -25,7 +25,7 @@
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+/config/master.kegit y
 
 /public/packs
 /public/packs-test
@@ -35,6 +35,6 @@ yarn-debug.log*
 .yarn-integrity
 
 .DS_Store
-.idea/jirou-button/workspace.xml
-.idea/jirou-button/tasks.xml
+.idea/workspace.xml
+.idea/tasks.xml
 .env
