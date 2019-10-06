@@ -2,19 +2,19 @@ class ButtonsController < ApplicationController
   def share
   end
 
-  def button1
+  def first
 
   end
 
-  def button2
+  def second
 
   end
 
-  def button3
+  def third
 
   end
 
-  def button4
+  def fourth
 
   end
 
