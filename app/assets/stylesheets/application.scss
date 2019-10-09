@@ -15,51 +15,82 @@
  */
 
 // all
-a, a:hover, a:visited {
-    text-decoration: none;
-    color: #000000;
-}
-h1 {
-    margin: 0;
-    line-height: 50px;
-}
-h3 {
-    margin: 0px;
-    line-height: 40px;
-}
-// layout
- body {
-     min-width: 100%;
-     margin: 0px;
-     padding: 0;
-     font-family: sans-serif;
- }
 
-.main {
+  a, a:hover, a:visited {
+      text-decoration: none;
+      color: #000000;
+  }
+  h1 {
+      margin: 0;
+    font-size: 50px;
+  }
+  h3 {
+      margin: 0px;
+      line-height: 40px;
+  }
+  // layout
+   body {
+       min-width: 100%;
+       margin: 0px;
+       padding: 0;
+       font-family: sans-serif;
+   }
+
+  .main {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      background-color: #E0C73C;
+      text-align: center;
+  }
+  .title {
+      padding: 20px;
+      margin: 20px 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    display: inline-block;
+    padding: 0;
+  }
+  .subtitle {
+    display: inline-block;
+    margin: none;
     width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 20px;
-    background-color: #E0C73C;
-    text-align: center;
-}
-.title {
-    padding: 20px;
-    margin: 20px 0;
-}
+  }
+  .contents {
+    float: left;
+    padding: 0 20px;
+  }
+  .slash {
+    float: left;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+
 // button
-   .button {
+
+  .button {
        display: inline-block;
-       height: 40px;
-     width: 150px;
+     height: 50px;
+     width: 200px;
        padding: 0 20px;
        margin: 10px 0;
-       border-radius: 20px;
+     border-radius: 25px;
        background-color: #ffffff;
      box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
    }
 
-  .button:hover {
-    transform: translateY(3px);
-    box-shadow: none;
-  }
+    .button h3 {
+      line-height: 50px;
+    }
+
+    .button:hover {
+      transform: translateY(3px);
+      box-shadow: none;
+    }
