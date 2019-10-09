@@ -28,24 +28,31 @@
       margin: 0px;
       line-height: 40px;
   }
-  // layout
+
+
+
+// layout
+
    body {
        min-width: 100%;
        margin: 0px;
        padding: 0;
        font-family: sans-serif;
+       background-color: #E0C73C;
    }
 
   .main {
       width: 100%;
-      height: 100vh;
       margin: 0;
-      padding: 20px;
+      padding: 20px 20px 40px;
       background-color: #E0C73C;
       text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
   }
+
   .title {
-      padding: 20px;
       margin: 20px 0;
   }
 
